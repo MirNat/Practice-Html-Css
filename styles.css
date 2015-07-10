@@ -14,7 +14,7 @@ body {
 
 header{
   background: url(images/background_header.png) ;
-  font-family: 'FjallaOne', arial;
+  font-family: 'FjallaOne', Verdana, arial;
   padding-top: 1px;
 }
 
@@ -90,13 +90,13 @@ span.nav{width:100px;}
    background-repeat: no-repeat;
    width: 1170px;
    margin: 40px auto 0;
-   font-family: "FjallaOne",arial;
+   font-family: "FjallaOne", Verdana, arial;
    color: #f5d2d2;
    text-align: center;
 }
 
 .banner h1{
-  font-family: "FjallaOne",arial;
+  font-family: "FjallaOne", Verdana, arial;
   font-size: 55px;
 }
 
@@ -178,13 +178,13 @@ span.nav{width:100px;}
   font-size: 17px;
   color: #747474;
   display:inline-block;
-  font-family: 'Oxygen', arial;
+  font-family: 'Oxygen', Tahoma, arial;
   padding-bottom: 30px;
   /*box-shadow: 5px 0px 5px #c1c1c1;*/
 }
 
 .menu-item a{
-  font-family: 'Oxygen', arial;
+  font-family: 'Oxygen', Tahoma, arial;
   font-size: 13px;
   color: #979797;
   margin-left: 70px;
@@ -217,7 +217,7 @@ span.nav{width:100px;}
 }
 
 .column h3{
-  font-family: "FjallaOne",arial;
+  font-family: "FjallaOne", Verdana, arial;
   font-size: 17px;
   color: #747474;
   width: 99%;
@@ -227,14 +227,18 @@ span.nav{width:100px;}
 
 .column h4{
    width: 230px;
-   font-family: 'Oxygen', arial;
+   font-family: 'Oxygen', Tahoma, arial;
    font-size: 13px;
    color: #c1c1c1;
    line-height: 22px;
 }
 
+.column-img{
+  padding-top: 15px;
+}
+
 .readmore{
-   font-family: 'FjallaOne', arial;
+   font-family: 'FjallaOne', Verdana, arial;
    font-size: 13px;
    color: #ffffff;
    background: #b297c4;
@@ -242,6 +246,7 @@ span.nav{width:100px;}
    border-bottom-left-radius: 5px;
    padding: 20px;
    margin-top: 5px;
+   cursor: pointer;
 }
 
 .arrow_post{
@@ -293,7 +298,7 @@ span.nav{width:100px;}
 
 .news li{
   border-bottom: 1px solid #f0f0f0;
-  font-family: 'Oxygen', arial;
+  font-family: 'Oxygen', Tahoma, arial;
   font-size: 13px;
   color: #9e9e9e;
 }
@@ -305,7 +310,7 @@ span.nav{width:100px;}
 .secondary-news li{
   padding-bottom: 20px;
   border-bottom: 1px solid #f0f0f0;
-  font-family: 'Oxygen', arial;
+  font-family: 'Oxygen', Tahoma, arial;
   font-size: 13px;
   margin-top: 20px;
 }
@@ -329,7 +334,7 @@ span.nav{width:100px;}
 .secondary-news h4{
   color: #b297c4;
   text-transform: uppercase;
-  font-family: "FjallaOne",arial;
+  font-family: "FjallaOne", Verdana, arial;
   font-size: 13px;
 }
 
@@ -344,12 +349,12 @@ span.nav{width:100px;}
 
 footer{
   background: url(images/background_footer.png) ;
-  font-family: 'Open Sans', arial;
+  font-family: 'Open Sans', Courier, arial;
   color: #a5a5a5;
 }
 
 footer a{
-  font-family: 'Open Sans', arial;
+  font-family: 'Open Sans', Courier, arial;
   font-size: 13px;
   color: #a5a5a5;
 }
@@ -369,7 +374,7 @@ hr{
 }
 
 .footer-header{
-  font-family: 'Open Sans Bold', arial;
+  font-family: 'Open Sans Bold', Courier bold, arial;
   font-size: 13px;
   color: #b297c4;
 }
@@ -392,7 +397,7 @@ hr{
 }
 
 .footer-menu-item a{
-  font-family: 'Open Sans Bold', arial;
+  font-family: 'Open Sans Bold', Courier bold, arial;
   font-size: 13px;
   color: #b297c4;
   text-decoration: none;
