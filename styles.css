@@ -10,15 +10,19 @@ ul {
 }
 
 body {
-    background: #f0f0f0;
+       background: url(images/background_header.png) left top repeat-x, url(images/background_footer.png) left bottom repeat-x, #f0f0f0 left top repeat;
+}
+
+header:before{
+    margin-top: 70px;
 }
 
 header {
     font-family: 'FjallaOne', Verdana, arial;
 
-    padding-top: 1px;
+    margin: 70px 0 60px;
 
-    background: url(images/background_header.png) ;
+    background: #383838;
 }
 
 header a {
@@ -27,15 +31,17 @@ header a {
     color: #fff;
 }
 
+.nav a{
+    padding: 20px 20px 25px;
+}
+
 .logo {
-    font-size: 37px;
-    line-height: 80px;
+    font-size: 44px;
 
     float: left;
 
-    width: 200px;
-    height: 80px;
-    margin-top: -10px;
+    margin: -10px 0;
+    padding: 13px 21px 12px 22px;
 
     text-align: center;
 
@@ -43,27 +49,18 @@ header a {
     background: #b297c4;
 }
 
-.empty {
-    height: 1px;
-}
+.nav-panel {
+    width: 1170px;
 
-.nav-bar {
-    margin-top: 70px;
-    padding-top: 60px;
+    display: table;
 
-    background: #383838;
-}
-
-.nav-bar:before {
-    margin-top: 70px;
+    margin: 0 auto;
 }
 
 .navs {
     font-size: 12px;
 
-    width: 1170px;
-    margin: -60px auto 0;
-    padding-bottom: 80px;
+    float: right;
 
     color: #fff;
 }
@@ -76,7 +73,7 @@ header a {
     display: inline-block;
     float: right;
 
-    padding: 20px 20px 25px;
+    padding: 20px 0px 25px;
 
     text-align: center;
 
@@ -97,6 +94,7 @@ span.nav {
 }
 
 .banner {
+    text-align: center;
     font-family: 'FjallaOne', Verdana, arial;
 
     width: 1170px;
@@ -193,14 +191,14 @@ span.nav {
     padding-bottom: 83px;
 }
 
-.central-menu {
+.submenu {
     margin-bottom: 56px;
     padding-top: 20px;
 
     background-color: #fff;
 }
 
-.menu-item {
+.submenu-item {
     font-family: 'Oxygen', Tahoma, arial;
     font-size: 17px;
 
@@ -213,7 +211,7 @@ span.nav {
     /*box-shadow: 5px 0px 5px #c1c1c1;*/
 }
 
-.menu-item a {
+.submenu-item a {
     font-family: 'Oxygen', Tahoma, arial;
     font-size: 13px;
 
@@ -222,18 +220,18 @@ span.nav {
     color: #979797;
 }
 
-.menu-item:last-child a {
+.submenu-item:last-child a {
     padding-left: 11px;
 }
 
-.menu-item-img {
+.submenu-item-img {
     padding-top: 11px;
     padding-left: 40%;
 
     cursor: pointer;
 }
 
-.header-menu-item {
+.submenu-item-header {
     margin: -3px 0 -15px 95px;
 }
 
@@ -407,7 +405,7 @@ footer {
     font-family: 'Open Sans', Courier, arial;
 
     color: #a5a5a5;
-    background: url(images/background_footer.png) ;
+    /*background: url(images/background_footer.png) ;*/
 }
 
 footer a {
@@ -421,10 +419,6 @@ footer a {
     width: 1170px;
     margin: 50px auto 0;
     padding-bottom: 20px;
-}
-
-.footer-columns {
-    padding: 48px 0 34px;
 }
 
 footer .column {
