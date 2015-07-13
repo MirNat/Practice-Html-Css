@@ -97,11 +97,6 @@ span.nav {
     text-align: center;
     font-family: 'FjallaOne', Verdana, arial;
 
-    width: 1170px;
-    margin: 40px auto 0;
-
-    text-align: center;
-
     color: #f5d2d2;
     background: url(images/banner.png);
     background-repeat: no-repeat;
@@ -193,7 +188,7 @@ span.nav {
 
 .submenu {
     margin-bottom: 56px;
-    padding-top: 20px;
+    padding: 30px 0 30px;
 
     background-color: #fff;
 }
@@ -201,11 +196,11 @@ span.nav {
 .submenu-item {
     font-family: 'Oxygen', Tahoma, arial;
     font-size: 17px;
+    text-align: center;
 
     display: inline-block;
 
     width: 24.6%;
-    padding-bottom: 30px;
 
     color: #747474;
     /*box-shadow: 5px 0px 5px #c1c1c1;*/
@@ -215,24 +210,15 @@ span.nav {
     font-family: 'Oxygen', Tahoma, arial;
     font-size: 13px;
 
-    margin-left: 70px;
-
     color: #979797;
 }
 
-.submenu-item:last-child a {
-    padding-left: 11px;
-}
-
 .submenu-item-img {
-    padding-top: 11px;
-    padding-left: 40%;
-
     cursor: pointer;
 }
 
 .submenu-item-header {
-    margin: -3px 0 -15px 95px;
+    margin: -3px 0px -15px;
 }
 
 .columns {
@@ -427,7 +413,8 @@ footer .column {
 
 hr
 {
-    background: #434243;
+
+    opacity: 0.3;
 }
 
 .footer-header {
